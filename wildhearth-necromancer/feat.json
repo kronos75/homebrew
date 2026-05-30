@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WildHearth Necromancer",
+        "abbreviation": "WHN",
+        "full": "Wild Hearth: Necromancer Playtest",
+        "authors": ["Pointy Hat", "Loot Tavern Publishing"],
+        "version": "1.01"
+      }
+    ]
+  },
+  "feat": [
+    {
+      "name": "Boon of Dying Breath",
+      "source": "WHN",
+      "page": 15,
+      "level": 19,
+      "isEpicBoon": true,
+      "ability": [
+        {
+          "int": 1,
+          "to": 30
+        }
+      ],
+      "entries": [
+        "You gain the following benefits.",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Increase your Intelligence score by 1, to a maximum of 30."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Last Stand",
+          "entries": [
+            "When a creature you can see is reduced to 0 Hit Points but isn't killed outright, you can take a Reaction to delay its fall. If the creature is willing, it doesn't gain the Unconscious condition. Immediately after this turn, it can move up to half its Speed and take one action or Bonus Action. It then gains the Unconscious condition as normal and suffers one Death Saving Throw failure. Once you use this benefit, you can't use it on that creature again until you finish a Short or Long Rest."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WildHearth Necromancer",
+        "abbreviation": "WHN",
+        "full": "Wild Hearth: Necromancer Playtest",
+        "authors": ["Pointy Hat", "Loot Tavern Publishing"],
+        "version": "1.01"
+      }
+    ]
+  },
+  "background": []
+}

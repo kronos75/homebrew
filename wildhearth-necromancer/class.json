@@ -1,0 +1,760 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WildHearth Necromancer",
+        "abbreviation": "WHN",
+        "full": "Wild Hearth: Necromancer Playtest",
+        "authors": ["Pointy Hat", "Loot Tavern Publishing"],
+        "version": "1.01",
+        "url": "",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 2026,
+    "dateLastModified": 2026
+  },
+  "class": [
+    {
+      "name": "Necromancer",
+      "source": "WHN",
+      "page": 1,
+      "hd": {
+        "number": 1,
+        "faces": 6
+      },
+      "proficiency": [
+        "con",
+        "int"
+      ],
+      "spellcastingAbility": "int",
+      "spellcastingProgression": "full",
+      "preparedSpells": "fixed",
+      "spellcastingFeature": [
+        "Spellcasting"
+      ],
+      "additionalSpells": {
+        "innate": [
+          {
+            "name": "Speak with Dead",
+            "source": "PHB",
+            "level": 3,
+            "prepared": "always"
+          }
+        ]
+      },
+      "casterProgression": "full",
+      "cantripsKnown": {
+        "1": 3,
+        "4": 4,
+        "10": 5
+      },
+      "spellsKnown": {
+        "1": 4,
+        "2": 5,
+        "3": 6,
+        "4": 7,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 12,
+        "9": 14,
+        "10": 15,
+        "11": 15,
+        "12": 15,
+        "13": 17,
+        "14": 17,
+        "15": 18,
+        "16": 18,
+        "17": 19,
+        "18": 20,
+        "19": 21,
+        "20": 22
+      },
+      "spellSlots": {
+        "1": {
+          "1": 2,
+          "2": 3,
+          "3": 4,
+          "4": 4,
+          "5": 4,
+          "6": 4,
+          "7": 4,
+          "8": 4,
+          "9": 4,
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 4,
+          "14": 4,
+          "15": 4,
+          "16": 4,
+          "17": 4,
+          "18": 4,
+          "19": 4,
+          "20": 4
+        },
+        "2": {
+          "3": 2,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 3,
+          "17": 3,
+          "18": 3,
+          "19": 3,
+          "20": 3
+        },
+        "3": {
+          "5": 2,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 3,
+          "17": 3,
+          "18": 3,
+          "19": 3,
+          "20": 3
+        },
+        "4": {
+          "7": 1,
+          "8": 2,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 3,
+          "17": 3,
+          "18": 3,
+          "19": 3,
+          "20": 3
+        },
+        "5": {
+          "9": 1,
+          "10": 2,
+          "11": 2,
+          "12": 2,
+          "13": 2,
+          "14": 2,
+          "15": 2,
+          "16": 2,
+          "17": 2,
+          "18": 2,
+          "19": 2,
+          "20": 2
+        },
+        "6": {
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 1
+        },
+        "7": {
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 1
+        },
+        "8": {
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 1
+        },
+        "9": {
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 1
+        }
+      },
+      "classFeatures": [
+        "Spellcasting|WHN|1",
+        "Necromancy|WHN|1",
+        "Transfuse Thrall|WHN|1",
+        "Death Mage|WHN|2",
+        "Morbid Recovery|WHN|2",
+        "Necromancer Subclass|WHN|3",
+        "Ability Score Improvement|PHB|4",
+        "Psychopomp|WHN|5",
+        "Grave Sense|WHN|5",
+        "Turned Undead|WHN|7",
+        "Ability Score Improvement|PHB|8",
+        "Favored Formula|WHN|10",
+        "Ability Score Improvement|PHB|12",
+        "Ability Score Improvement|PHB|16",
+        "Empowered Psychopomp|WHN|17",
+        "Undead Mage|WHN|17",
+        "Epic Boon|WHN|19",
+        "Arch-Necromancer|WHN|20"
+      ],
+      "classTableGroups": {
+        "level": {
+          "1": {
+            "features": [
+              "Spellcasting",
+              "Necromancy",
+              "Transfuse Thrall"
+            ],
+            "cantripsKnown": 3,
+            "spellsKnown": 4,
+            "slots1": 2
+          },
+          "2": {
+            "features": [
+              "Death Mage",
+              "Morbid Recovery"
+            ],
+            "cantripsKnown": 3,
+            "spellsKnown": 5,
+            "slots1": 3
+          },
+          "3": {
+            "features": [
+              "Necromancer Subclass"
+            ],
+            "cantripsKnown": 3,
+            "spellsKnown": 6,
+            "slots1": 4,
+            "slots2": 2
+          },
+          "4": {
+            "features": [
+              "Ability Score Improvement"
+            ],
+            "cantripsKnown": 4,
+            "spellsKnown": 7,
+            "slots1": 4,
+            "slots2": 3
+          },
+          "5": {
+            "features": [
+              "Psychopomp",
+              "Grave Sense"
+            ],
+            "cantripsKnown": 4,
+            "spellsKnown": 9,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 2
+          },
+          "6": {
+            "features": [
+              "Subclass Feature"
+            ],
+            "cantripsKnown": 4,
+            "spellsKnown": 10,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3
+          },
+          "7": {
+            "features": [
+              "Turned Undead"
+            ],
+            "cantripsKnown": 4,
+            "spellsKnown": 11,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 1
+          },
+          "8": {
+            "features": [
+              "Ability Score Improvement"
+            ],
+            "cantripsKnown": 4,
+            "spellsKnown": 12,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 2
+          },
+          "9": {
+            "features": [
+              "Subclass Feature"
+            ],
+            "cantripsKnown": 4,
+            "spellsKnown": 14,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 1
+          },
+          "10": {
+            "features": [
+              "Favored Formula"
+            ],
+            "cantripsKnown": 5,
+            "spellsKnown": 15,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 2
+          },
+          "11": {
+            "cantripsKnown": 5,
+            "spellsKnown": 15,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 2,
+            "slots6": 1
+          },
+          "12": {
+            "features": [
+              "Ability Score Improvement"
+            ],
+            "cantripsKnown": 5,
+            "spellsKnown": 15,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 2,
+            "slots6": 1
+          },
+          "13": {
+            "cantripsKnown": 5,
+            "spellsKnown": 17,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 2,
+            "slots6": 1,
+            "slots7": 1
+          },
+          "14": {
+            "features": [
+              "Subclass Feature"
+            ],
+            "cantripsKnown": 5,
+            "spellsKnown": 17,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 2,
+            "slots6": 1,
+            "slots7": 1
+          },
+          "15": {
+            "cantripsKnown": 5,
+            "spellsKnown": 18,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 2,
+            "slots6": 1,
+            "slots7": 1,
+            "slots8": 1
+          },
+          "16": {
+            "features": [
+              "Ability Score Improvement"
+            ],
+            "cantripsKnown": 5,
+            "spellsKnown": 18,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 2,
+            "slots6": 1,
+            "slots7": 1,
+            "slots8": 1
+          },
+          "17": {
+            "features": [
+              "Empowered Psychopomp",
+              "Undead Mage"
+            ],
+            "cantripsKnown": 5,
+            "spellsKnown": 19,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 2,
+            "slots6": 1,
+            "slots7": 1,
+            "slots8": 1,
+            "slots9": 1
+          },
+          "18": {
+            "cantripsKnown": 5,
+            "spellsKnown": 20,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 3,
+            "slots6": 1,
+            "slots7": 1,
+            "slots8": 1,
+            "slots9": 1
+          },
+          "19": {
+            "features": [
+              "Epic Boon"
+            ],
+            "cantripsKnown": 5,
+            "spellsKnown": 21,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 3,
+            "slots6": 2,
+            "slots7": 1,
+            "slots8": 1,
+            "slots9": 1
+          },
+          "20": {
+            "features": [
+              "Arch-Necromancer"
+            ],
+            "cantripsKnown": 5,
+            "spellsKnown": 22,
+            "slots1": 4,
+            "slots2": 3,
+            "slots3": 3,
+            "slots4": 3,
+            "slots5": 3,
+            "slots6": 2,
+            "slots7": 2,
+            "slots8": 1,
+            "slots9": 1
+          }
+        }
+      },
+      "fluff": [
+        {
+          "name": "Necromancer",
+          "source": "WHN",
+          "entries": [
+            "Necromancers study the magic that rules over life, death, and undeath. To a necromancer, the body is both a source of power and a vessel for it. Necromancy can manipulate the body, allowing its wielder to control reanimated corpses like macabre puppets, but it is not bound by the limits of the flesh. A skilled necromancer makes use of the blood, bone, sinew, and spirit of the dead.",
+            "",
+            "It's this unusual praxis that makes necromancy a practice so often maligned. In many cultures, necromancy is at best taboo; at worst, arcane blasphemy. Necromancers have used their powers for evil, controlling the unwitting bodies of the dead or even the unwilling bodies of the living.",
+            "",
+            "But necromancy can also be turned to good. Necromancers have raised armies to fight off invasions, healed grievous wounds and deadly illnesses, and acted as conduits to pass along messages from the voiceless dead. Some consider necromancy white magic for its capacity to bring closure to the grieving and heal the sick.",
+            "",
+            "No other arcane practice so exemplifies the fact that magic is itself neutral. A necromancer holds the power to bring life to the dead- or death to the living."
+          ]
+        }
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Spellcasting",
+      "source": "WHN",
+      "page": 2,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 1,
+      "entries": [
+        "You cast spells by drawing upon the energetical fluctuation that happens when life gives way to death- and vice versa. The information below details how you use the spellcasting rules with Necromancer spells.",
+        {
+          "type": "inset",
+          "name": "Cantrips",
+          "entries": [
+            "You know three Necromancer cantrips of your choice. {@spell Light|PHB}, {@spell Putrefy|WHN}, and {@spell Ray of Frost|PHB} are recommended. Whenever you gain a Necromancer level, you can replace one of your cantrips from this feature with another cantrip of your choice from the Necromancer spell list.",
+            "When you reach Necromancer levels 4 and 10, you learn another cantrip of your choice from the Necromancer spell list, as shown in the Cantrips column of the Necromancer Features table."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Spell Slots",
+          "entries": [
+            "The Necromancer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Prepared Spells of Level 1+",
+          "entries": [
+            "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1+ Necromancer spells. {@spell Inflict Wounds|PHB}, {@spell Mage Armor|PHB}, {@spell Ray of Sickness|PHB} and {@spell Revenge|WHN} are recommended.",
+            "The number of spells on your list increases as you gain Necromancer levels, as shown in the Prepared Spells column of the Necromancer Features table. Whenever that number increases, choose additional Necromancer spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Necromancer, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.",
+            "If another Necromancer feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Necromancer spells for you."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Changing Your Prepared Spells",
+          "entries": [
+            "Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Necromancer spells for which you have spell slots."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Spellcasting Ability",
+          "entries": [
+            "Intelligence is your spellcasting ability for your Necromancer spells."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Spellcasting Focus",
+          "entries": [
+            "You can use an Arcane Focus or your inactive Thrall as a Spellcasting Focus for your Necromancer spells."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Necromancy",
+      "source": "WHN",
+      "page": 3,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 1,
+      "entries": [
+        "You can harness the energy generated when pushing the living towards death to unleash both harmful and helpful effects on your foes and allies.",
+        "You gain two {@optionalfeature Necromantic Formulae|WHN} of your choice from the Necromantic Formulae section. Each formula has two potencies, known as abstract and perfect, and each of a formula's potencies has a threshold, the amount of damage required to activate the formula at that potency. Formulae also come in two types: Hostile, which gives debuffs to enemies and typically requires a saving throw; and Bolstering, which gives boons to allies.",
+        {
+          "type": "inset",
+          "name": "Activating a Formula",
+          "entries": [
+            "When you cast a Necromancer spell with a spell slot, you can choose a Necromantic Formula you know to apply to the spell (no action required). The formula activates if at least one of the targets of your spell is CR 1/8+ and takes damage from the spell equal to or greater than the formula's abstract threshold. If the damage is equal to or greater than the perfect threshold, you choose whether the effects of the abstract or perfect potency take place. Otherwise, the abstract potency's effects take place. Only one Necromantic Formula can trigger per spell."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Formula Targets",
+          "entries": [
+            "When a formula is activated, you choose its target, which is a creature within 30 feet of you or within range of the spell, whichever is greater. Bolstering formulae can only target willing creatures, and some of them can only target you. Some formulae require a saving throw. The saving throw DC for your formulae equals your Necromancer spell save DC (see Spellcasting). Targets of the formula that failed the saving throw or were hit by the attack roll of the spell that triggered the formula automatically fail the saving throw against the formula."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Changing Formulae",
+          "entries": [
+            "Whenever you gain a Necromancer level, you can replace one of your Necromantic Formulae with one you don't know. You gain one additional Necromantic Formula at Necromancer levels 5, 9, 13, and 17.",
+            "**Necromantic Formulae available:** {@optionalfeature Blood Poisoning|WHN}, {@optionalfeature Bone Armor|WHN}, {@optionalfeature Chill Marrow|WHN}, {@optionalfeature Myological Frenzy|WHN}, {@optionalfeature Necrotic Corrosion|WHN} (Tier 1); {@optionalfeature Affliction Transfusion|WHN}, {@optionalfeature Soulweaver|WHN}, {@optionalfeature Spirit Step|WHN}, {@optionalfeature Synaptic Overdrive|WHN}, {@optionalfeature Raise Undead|WHN}, {@optionalfeature Vampiric Syphon|WHN}, {@optionalfeature Withering Curse|WHN} (Tier 2); {@optionalfeature Boiling Bloodrage|WHN}, {@optionalfeature Grasp of the Grave|WHN}, {@optionalfeature \"Turn\" Undead|WHN}, {@optionalfeature Undying Resilience|WHN} (Tier 3)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transfuse Thrall",
+      "source": "WHN",
+      "page": 3,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 1,
+      "entries": [
+        "You can animate the dead to do your bidding by injecting them with necromantic magic. Your thrall is the undead embodiment of this skill.",
+        {
+          "type": "inset",
+          "name": "Vestige",
+          "entries": [
+            "You have an item known as a vestige, a Tiny object made of humanoid remains that weighs 2 pounds. You can use your vestige as a Spellcasting Focus for your Necromancer spells."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Transfuse",
+          "entries": [
+            "As a Magic action while holding your vestige, you can transfuse necromantic energy into it to bring forth an undead servant, causing your vestige to grow into a Medium-sized thrall that appears in an unoccupied space within 5 feet of you. Your thrall has the statistics of a Skeleton, and you can't use it as a Spellcasting Focus until you transfuse it back into a vestige. You decide your thrall's appearance, though it must have two arms and two legs. As a Magic action, you can touch your thrall to turn it back into a vestige."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "The Look of Death",
+          "entries": [
+            "What does your vestige and thrall look like? Your vestige could look like a bejeweled skull, an articulated skeletal hand, or a jar of organs preserved in arsenic. Your activated thrall could look like a gilded skeleton, the mummified corpse of a loved one, or an amalgam of muscle, bone, and sinew in the rough shape of a person."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Embody Thrall",
+          "entries": [
+            "While your thrall is within 100 feet of you, you can use a Bonus Action to see through your thrall's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses it has during that time. While doing so, you can cast spells as though you were in your thrall's space."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Combat",
+          "entries": [
+            "In combat, your thrall is an ally to you and your allies. It shares your Initiative count, but it takes its turn immediately after yours. It cannot attack, but it can take other actions as normal. It can move and use its Reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a Bonus Action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you have the Incapacitated condition, the thrall can take any action of its choice, not just Dodge.",
+            "If your thrall drops to 0 Hit Points, it reverts back into a vestige, dropping anything it was wearing or carrying in its space. Once your thrall drops to 0 Hit Points, you can't transfuse your vestige again until you finish a Long Rest unless you expend a level 1+ spell slot (no action required) to restore your use of it."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Destruction",
+          "entries": [
+            "You can create a new vestige when you finish a Long Rest. If you do, any previous vestiges you have immediately turn to dust and are destroyed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Death Mage",
+      "source": "WHN",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 2,
+      "entries": [
+        "Your study of the necromantic arts make you uniquely suited to master the spells of your chosen school of magic. When you change your list of prepared Necromancer spells at the end of a Long Rest, you can prepare an additional number of spells of your choice from the Necromancy school of magic equal to your Intelligence modifier (minimum of one spell). These spells must still abide by the other restrictions on preparing spells detailed in your Spellcasting feature, but do not count against the number of spells you can prepare with it."
+      ]
+    },
+    {
+      "name": "Morbid Recovery",
+      "source": "WHN",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 2,
+      "entries": [
+        "When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can be no higher than level 5, and can have a combined level equal to no more than 1 + one quarter your Necromancer level (rounded up). For example, if you are a level 5 Necromancer, you can recover up to three levels' worth of spell slots, regaining either three level 1 spell slots, one level 2 spell slot and one level 1 spell slot, or one level 3 spell slot.",
+        "Additionally, when you use this feature, you can sacrifice your own vitality to transform it into arcane power. Expend and roll one of your Hit Point Dice, adding the result to the combined level of spell slots that you can regain using this feature.",
+        "Once you use this feature, you can't do so again until you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Necromancer Subclass",
+      "source": "WHN",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 3,
+      "entries": [
+        "You gain a Necromancer subclass of your choice. The {@subclass Blood Mage|WHN}, {@subclass Homunculist|WHN}, {@subclass Medium|WHN}, and {@subclass Overlord|WHN} subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Necromancer levels. For the rest of your career, you gain each of your subclass's features that are of your Necromancer level or lower."
+      ]
+    },
+    {
+      "name": "Psychopomp",
+      "source": "WHN",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 5,
+      "entries": [
+        "You exert your will over the passing of a soul- including your own- onto the realm of the dead. When a creature you can see within 60 feet of you is about to roll a Death Saving Throw, you can take a Reaction to grant Advantage or Disadvantage on that roll.",
+        "Additionally, whenever you suffer a Death Saving Throw failure, you cannot suffer another until the start of your next turn. This prevents you from suffering two failures at the same time, such as by rolling a 1 on the d20 for a Death Saving Throw or taking damage from a Critical Hit."
+      ]
+    },
+    {
+      "name": "Grave Sense",
+      "source": "WHN",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 5,
+      "entries": [
+        "You are uniquely in tune with necromantic energies and the undead ruled by them. You always have the {@spell Speak with Dead} spell prepared. For you, casting the spell on a corpse that was Undead when it died or that was the target of the spell within the past 10 days doesn't cause the spell to fail, provided the corpse wasn't the target of this spell within the past day.",
+        "Additionally, as a Magic action, you can enhance your senses with your necromancy. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any Undead within 120 feet of you that is not behind Total Cover. You know the name of the stat block of the Undead, but not its unique identity (its name or occupation in life, for example).",
+        "You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Turned Undead",
+      "source": "WHN",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 7,
+      "entries": [
+        "As a Magic Action, you present your Arcane Focus and exert control over Undead. Each Undead of your choice within 30 feet of you must make a Wisdom saving throw against your Necromancer spell save DC. On a failure, the target has the Charmed condition for 1 minute.",
+        "You can take a Magic Action on each of your turns to issue a simple command to any number of creatures Charmed by this feature that are of CR 3 or lower and within 120 feet of you. Each creature follows the command on its next turn. For example, you can command them to attack a specific creature they can see, drop all their weapons, retreat from harm, or march forward. If the command is directly harmful to it, such as commanding a creature to jump off a cliff, the effect ends automatically before it can follow your instructions. Charmed creatures that have not received a command take the Dodge action on their turns.",
+        "The Charmed creature makes a Wisdom saving throw against your Necromancer spell save DC at the end of each of its turns, ending the condition on itself on a success. If you or any of your companions damage a Charmed creature, the condition ends. The CR of the creatures you can command using this feature increases at Necromancer level 11 (CR 4) and level 17 (CR 5).",
+        "You can use this feature to exert control over Undead twice, and you regain all expended uses of it when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Favored Formula",
+      "source": "WHN",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 10,
+      "entries": [
+        "You gain a greater understanding of a specific Necromantic Formula. Choose one Necromantic Formula you know. You can apply that formula to your damaging Necromancer cantrips. Whenever you gain a Necromancer level, you can change which formula you chose."
+      ]
+    },
+    {
+      "name": "Empowered Psychopomp",
+      "source": "WHN",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 17,
+      "entries": [
+        "Death no longer holds the same power over you as it does over everyone else. When you have the Unconscious condition and are making Death Saving Throws, you can choose to transport your consciousness into your thrall (no action required), as long as your thrall is within the range at which you can perceive through its senses, taking control of it and perceiving through its senses. On your turns while possessing the thrall, you can cast cantrips as though you were in the thrall's space. This effect ends if you become Stable, you die, your thrall is reduced to 0 Hit Points, or your thrall ends its turn beyond the range at which you can perceive through its senses.",
+        "You continue making Death Saving Throws at the start of each of your turns, as normal."
+      ]
+    },
+    {
+      "name": "Undead Mage",
+      "source": "WHN",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 17,
+      "entries": [
+        "Your mastery over death extends to your very essence. [Placeholder text - see original PDF for details]"
+      ]
+    },
+    {
+      "name": "Epic Boon",
+      "source": "WHN",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 19,
+      "entries": [
+        "You gain an Epic Boon feat or another feat of your choice for which you qualify. {@feat Boon of Dying Breath|WHN} is recommended."
+      ]
+    },
+    {
+      "name": "Arch-Necromancer",
+      "source": "WHN",
+      "page": 5,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "level": 20,
+      "entries": [
+        "Whenever you apply a Necromantic Formula to a level 1+ spell, you can expend any number of additional spell slots of a level equal to the spell's level. When you do, you can target an equal number of additional creatures with the formula."
+      ]
+    }
+  ]
+}

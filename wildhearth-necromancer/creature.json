@@ -1,0 +1,212 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WildHearth Necromancer",
+        "abbreviation": "WHN",
+        "full": "Wild Hearth: Necromancer Playtest",
+        "authors": ["Pointy Hat", "Loot Tavern Publishing"],
+        "version": "1.01"
+      }
+    ]
+  },
+  "monster": [
+    {
+      "name": "Ghostly Thrall",
+      "source": "WHN",
+      "page": 12,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "plus your Intelligence modifier"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "4 + (4 * Necromancer level)",
+        "special": "the thrall has a number of Hit Dice (d8s) equal to your Necromancer level"
+      },
+      "speed": {
+        "walk": 5,
+        "fly": 30,
+        "canHover": true
+      },
+      "str": 4,
+      "dex": 15,
+      "con": 15,
+      "int": 14,
+      "wis": 16,
+      "cha": 10,
+      "save": {
+        "str": -3,
+        "dex": 2,
+        "con": 2,
+        "int": 2,
+        "wis": 3,
+        "cha": 0
+      },
+      "mod": {
+        "str": -3,
+        "dex": 2,
+        "con": 2,
+        "int": 2,
+        "wis": 3,
+        "cha": 0
+      },
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "immune": [
+        "necrotic",
+        "poison"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "languages": "Understands the languages you know",
+      "cr": "None",
+      "xp": 0,
+      "pbNote": "PB equals your Proficiency Bonus",
+      "trait": [
+        {
+          "name": "Incorporeal Movement",
+          "entries": [
+            "The thrall can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+          ]
+        },
+        {
+          "name": "Undying Bond",
+          "entries": [
+            "Add your Proficiency Bonus to any ability check or saving throw the thrall makes."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Invisibility (3/Day)",
+          "entries": [
+            "The thrall casts the {@spell Invisibility} spell on itself, requiring no spell components and using Wisdom as the spellcasting ability. The spell also ends early immediately after the thrall takes any action other than Dash."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thrall Swarm",
+      "source": "WHN",
+      "page": 14,
+      "size": [
+        "L"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "plus your Intelligence modifier"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "4 + (4 * Necromancer level)",
+        "special": "the thrall has a number of Hit Dice (d8s) equal to your Necromancer level"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 15,
+      "int": 10,
+      "wis": 14,
+      "cha": 8,
+      "save": {
+        "str": 3,
+        "dex": 1,
+        "con": 2,
+        "int": 0,
+        "wis": 2,
+        "cha": -1
+      },
+      "mod": {
+        "str": 3,
+        "dex": 1,
+        "con": 2,
+        "int": 0,
+        "wis": 2,
+        "cha": -1
+      },
+      "resist": [
+        "necrotic"
+      ],
+      "immune": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "languages": "Understands the languages you know",
+      "cr": "None",
+      "xp": 0,
+      "pbNote": "PB equals your Proficiency Bonus",
+      "trait": [
+        {
+          "name": "Swarm",
+          "entries": [
+            "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Small creature. The swarm can only regain Hit Points through Necromantic Formulas, by expending its Hit Point Dice, and through the Undead Fortress feature."
+          ]
+        },
+        {
+          "name": "Undying Bond",
+          "entries": [
+            "Add your Proficiency Bonus to any ability check or saving throw the swarm makes."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Rend",
+          "entries": [
+            "{@atk mw} {@hit Your spell attack modifier} {@reach 10 ft.} {@h}2d8 + 3 plus Intelligence modifier Bludgeoning damage, or 1d8 + 3 plus Intelligence modifier Bludgeoning damage if the thrall is Bloodied."
+          ]
+        },
+        {
+          "name": "Necromantic Mend (3/Day)",
+          "entries": [
+            "The thrall expends one of its Hit Point Dice and regains a number of Hit Points equal to the roll."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Shifting Swarm",
+          "entries": [
+            "{@trigger} An attack roll hits the swarm.",
+            "{@response} The swarm gains Resistance to Bludgeoning, Piercing, and Slashing damage against the triggering attack."
+          ]
+        }
+      ]
+    }
+  ]
+}
