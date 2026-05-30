@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WildHearth Necromancer",
+        "abbreviation": "WHN",
+        "full": "Wild Hearth: Necromancer Playtest",
+        "authors": ["Pointy Hat", "Loot Tavern Publishing"],
+        "version": "1.01"
+      }
+    ]
+  },
+  "subclass": [
+    {
+      "name": "Medium",
+      "source": "WHN",
+      "page": 12,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "shortName": "Medium",
+      "subclassFeatures": {
+        "3": [
+          {
+            "name": "Ghostly Thrall",
+            "level": 3,
+            "entries": [
+              "Your thrall, unlike those of other Necromancers, is an ethereal simulacrum of the spirits you work with as a Medium. Your active thrall uses the Ghostly Thrall stat block below instead of the Skeleton stat block. You determine the ghostly thrall's appearance; your thrall could resemble a dead loved one, a swirling mass of shadows, or a tortured soul bound to your will by ethereal chains.",
+              "The range at which you can use the Embody Thrall benefit of your Transfuse Thrall feature increases to 200 feet."
+            ]
+          },
+          {
+            "name": "Medium's Formula",
+            "level": 3,
+            "entries": [
+              "You learn the following Necromantic Formula. This formula does not count against the number of formulas you know.",
+              "You gain the {@optionalfeature Spirit Messenger|WHN} formula."
+            ]
+          },
+          {
+            "name": "Whispered Knowledge",
+            "level": 3,
+            "entries": [
+              "The spirits you call into the world of the living act as your teachers, revealing to you the knowledge they gained in life. When you finish a Long Rest, you can contact a spirit to gain one skill and one tool proficiency of your choice. If you were already proficient in that skill or tool, you gain Expertise instead. These benefits last until you use this feature again.",
+              "For example, you can contact the spirit of a nurse to gain proficiency in the Medicine skill or the spirit of an explorer to gain proficiency with Cartographer's Tools."
+            ]
+          }
+        ],
+        "6": [
+          {
+            "name": "Whispered Discoveries",
+            "level": 6,
+            "entries": [
+              "The spirits that can answer your call are now more powerful, and willingly inviting them into your body unlocks even more coveted knowledge. When you finish a Long Rest, you can choose one of the following spirits to possess you, gaining the boon associated with it:",
+              "{@b Animist.} You learn one spell of your choice from the Druid spell list.",
+              "{@b Arcanist.} You learn one spell of your choice from the Wizard spell list.",
+              "{@b Virtuoso.} You learn one spell of your choice from the Bard spell list.",
+              "A spell you choose must be a spell from which you have spell slots, as shown in the Necromancer Features table. You always have this spell prepared until you choose another spirit to possess you."
+            ]
+          },
+          {
+            "name": "Speaker to the Dead",
+            "level": 6,
+            "entries": [
+              "Your ability to interpret the words from beyond the realm of the living grows stronger. You can cast {@spell Speak with Dead} without expending a spell slot and you have advantage on all Charisma checks made to interact with Undead."
+            ]
+          }
+        ],
+        "9": [
+          {
+            "name": "Whispered Magic",
+            "level": 9,
+            "entries": [
+              "When you use your Morbid Recovery, you can replace a number of spells you have prepared for your Spellcasting feature with other Necromancer spells. The number of spells you can replace is equal to the number of Hit Point Dice you have sacrificed to recover expended spell slots."
+            ]
+          }
+        ],
+        "14": [
+          {
+            "name": "Arch-Medium",
+            "level": 14,
+            "entries": [
+              "You have attained the pinnacle of ability to speak for, through, and to the dead. When you use your Whispered Discoveries feature, you gain additional benefits depending on which spirit currently possessing you:",
+              "{@b Animist.} You have Resistance to Poison damage, and you have Advantage on Wisdom checks.",
+              "{@b Arcanist.} You have Resistance to Fire, Cold, or Lightning damage (your choice when you choose this spirit), and you have Advantage on Intelligence checks.",
+              "{@b Virtuoso.} You have Resistance to Psychic damage, and you have Advantage on Charisma checks."
+            ]
+          }
+        ]
+      },
+      "fluff": [
+        {
+          "name": "Medium",
+          "source": "WHN",
+          "entries": [
+            "Mediums are Necromancers who forgo the manipulation of flesh and bone to focus instead on the study of the death ethereal. A Medium's area of expertise is spirits- speaking to and through them, summoning them to the world of the living, and binding them to possess bodies. They use necromancy to reach past the boundary between life and death, putting out a call to those that linger at the threshold. Mediums most often apply this gift to act as interpreters for the deceased, inviting spirits into their own body to give them a voice. This ability allows the Medium to bring succor to grieving families, justice to victims, and answers to scholars of times long past. Out of all the practitioners of necromancy, Mediums are the least persecuted.",
+            "",
+            "Dismissing all Mediums and their powers as innocuous, however, is as foolish and unimaginative as painting all Necromancers as evil. Mediums know that not all cases of possession involve a willing host, and that some of the secrets they learn are best kept in the grave."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Overlord",
+      "source": "WHN",
+      "page": 14,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "shortName": "Overlord",
+      "subclassFeatures": {
+        "3": [
+          {
+            "name": "Overlord's Formula",
+            "level": 3,
+            "entries": [
+              "You learn the following Necromantic Formula. This formula does not count against the number of formulas you know.",
+              "You gain the {@optionalfeature Conscript Vitality|WHN} formula."
+            ]
+          },
+          {
+            "name": "Thrall Swarm",
+            "level": 3,
+            "entries": [
+              "You have directed your necromantic studies towards the goal of raising an overwhelming number of undead thralls. Your active thrall uses the Thrall Swarm stat block below instead of the Skeleton stat block. You determine the thrall swarm's appearance; your swarm could be composed of gnashing skeletons, a horde of zombies that move in mindless unison, or a mass of incorrupt bodies bound in rosaries and dressed in funerary shrouds.",
+              "{@b The Swarm in Combat.} In combat, your thrall swarm is an ally to you and your allies. It shares your Initiative count, but it takes its turn immediately after yours. It can move and take its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. If you have the Incapacitated condition, the thrall swarm acts on its own and isn't limited to the Dodge action."
+            ]
+          }
+        ],
+        "6": [
+          {
+            "name": "Sacrifice Thrall",
+            "level": 6,
+            "entries": [
+              "You can use your own thrall's vitality to empower your necromancy. When you apply a Necromantic Formula to a spell, you can take a Reaction to sacrifice any number of your thrall swarm's Hit Points to reach the abstract or perfect thresholds for that formula for that casting. Once you use this feature, you can't do so again until you finish a Short or Long Rest."
+            ]
+          },
+          {
+            "name": "Undead Rampart",
+            "level": 6,
+            "entries": [
+              "Your control over your army of the dead grows stronger, allowing you to use its force both offensively and defensively. While you occupy the space of your thrall swarm, you have Half Cover. When you end your turn in your thrall swarm's space, you can halve your thrall swarm's Speed until the end of its next turn; until then, your thrall swarm moves you when it moves."
+            ]
+          }
+        ],
+        "9": [
+          {
+            "name": "Undead Fortress",
+            "level": 9,
+            "entries": [
+              "While you occupy the space of your thrall swarm, you now have Three-Quarters Cover. Additionally, when your thrall swarm enters the space of a Humanoid corpse, it can consume it and integrate it into itself (no action required). Roll the Hit Dice the corpse had in life. Your thrall regains a number of Hit Points equal to the result."
+            ]
+          }
+        ],
+        "14": [
+          {
+            "name": "Arch-Overlord",
+            "level": 14,
+            "entries": [
+              "You have mastered your role as commander of your undead forces. When your thrall swarm makes an attack, you can take a Reaction to apply a Tier 1 necromantic formula to its attack as if it was a spell you cast with a spell slot. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses of it when you finish a Long Rest."
+            ]
+          }
+        ]
+      },
+      "fluff": [
+        {
+          "name": "Overlord",
+          "source": "WHN",
+          "entries": [
+            "Necromancers who focus on the creation and control of hordes of undead are often referred to as Overlords. These practitioners of the dead arts are masters at reanimating corpses in staggering numbers, which has historically made them particularly useful in armed conflict. After all, the armies of the dead do not need to breathe, eat, or rest, and one powerful Overlord can command hundreds of necromantic thralls at once.",
+            "",
+            "This martial, bloody history has tainted the already ugly reputation of this particular type of Necromancer, but an Overlord is as likely- or as unlikely- as any other Necromancer to use their powers for evil. Overlords have razed entire nations to the ground, but they have also raised the dead to protect the weak, to rebuild after catastrophe, and even to take care of janitorial services. The unthinking, unfeeling army of an Overlord is theirs to command for whatever purpose they see fit."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Mage",
+      "source": "WHN",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "shortName": "Blood Mage",
+      "subclassFeatures": {
+        "3": [
+          {
+            "name": "Blood Mage Feature",
+            "level": 3,
+            "entries": [
+              "Blood Mage subclass features would be detailed here. [Placeholder - see full source material for complete Blood Mage subclass]"
+            ]
+          }
+        ]
+      },
+      "fluff": [
+        {
+          "name": "Blood Mage",
+          "source": "WHN",
+          "entries": [
+            "Blood Mages are Necromancers who specialize in the manipulation of blood, using it as both a weapon and a medium for their magic."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Homunculist",
+      "source": "WHN",
+      "page": 4,
+      "className": "Necromancer",
+      "classSource": "WHN",
+      "shortName": "Homunculist",
+      "subclassFeatures": {
+        "3": [
+          {
+            "name": "Homunculist Feature",
+            "level": 3,
+            "entries": [
+              "Homunculist subclass features would be detailed here. [Placeholder - see full source material for complete Homunculist subclass]"
+            ]
+          }
+        ]
+      },
+      "fluff": [
+        {
+          "name": "Homunculist",
+          "source": "WHN",
+          "entries": [
+            "Homunculists focus on creating artificial life forms through necromantic rituals, crafting loyal servants from alchemical and organic materials."
+          ]
+        }
+      ]
+    }
+  ]
+}

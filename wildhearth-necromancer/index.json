@@ -1,0 +1,64 @@
+{
+  "class": {
+    "WHN": [
+      "Necromancer"
+    ]
+  },
+  "subclass": {
+    "WHN": [
+      "Medium",
+      "Overlord",
+      "Blood Mage",
+      "Homunculist"
+    ]
+  },
+  "spell": {
+    "WHN": [
+      "Putrefy",
+      "Revenge",
+      "Corpse Explosion",
+      "Necrotic Bolt",
+      "Plague",
+      "Commune with Dead",
+      "Corrupt Life",
+      "Wall of Death",
+      "Conjure Undead",
+      "Necropolis",
+      "Totentanz",
+      "Mass Burial"
+    ]
+  },
+  "feat": {
+    "WHN": [
+      "Boon of Dying Breath"
+    ]
+  },
+  "monster": {
+    "WHN": [
+      "Ghostly Thrall",
+      "Thrall Swarm"
+    ]
+  },
+  "optionalfeature": {
+    "WHN": [
+      "Blood Poisoning",
+      "Bone Armor",
+      "Chill Marrow",
+      "Myological Frenzy",
+      "Necrotic Corrosion",
+      "Affliction Transfusion",
+      "Soulweaver",
+      "Spirit Step",
+      "Synaptic Overdrive",
+      "Raise Undead",
+      "Vampiric Syphon",
+      "Withering Curse",
+      "Boiling Bloodrage",
+      "Grasp of the Grave",
+      "\"Turn\" Undead",
+      "Undying Resilience",
+      "Spirit Messenger",
+      "Conscript Vitality"
+    ]
+  }
+}

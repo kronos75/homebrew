@@ -1,0 +1,465 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WildHearth Necromancer",
+        "abbreviation": "WHN",
+        "full": "Wild Hearth: Necromancer Playtest",
+        "authors": ["Pointy Hat", "Loot Tavern Publishing"],
+        "version": "1.01"
+      }
+    ]
+  },
+  "optionalfeature": [
+    {
+      "name": "Blood Poisoning",
+      "source": "WHN",
+      "page": 6,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Hostile Formula.** You rot the blood of a creature. Constructs and Undead are immune to this formula.",
+        {
+          "type": "entries",
+          "name": "Abstract (8+)",
+          "entries": [
+            "The target must succeed on a Constitution saving throw or have the Poisoned condition until the end of its next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (16+)",
+          "entries": [
+            "The target must succeed on a Constitution saving throw or have the Poisoned condition for 1 minute. At the end of each of its turns, the target makes a Constitution saving throw, ending the effect on a success."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bone Armor",
+      "source": "WHN",
+      "page": 6,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You generate a layer of articulated bone over the skin of a willing creature, shielding it from harm.",
+        {
+          "type": "entries",
+          "name": "Abstract (8+)",
+          "entries": [
+            "The target gains a +1 bonus to AC until the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (16+)",
+          "entries": [
+            "The target gains a +1 bonus to AC until the end of your next turn. For the duration, when a creature within 5 feet of the target hits it with an attack, the creature takes 1d4 Piercing damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chill Marrow",
+      "source": "WHN",
+      "page": 7,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Hostile Formula.** You imbue the cold of undeath so deep into a creature that it feels it in its bones.",
+        {
+          "type": "entries",
+          "name": "Abstract (8+)",
+          "entries": [
+            "The target must succeed on a Constitution saving throw or have its Speed reduced by 10 feet until the end of its next turn. For the duration, each time the creature regains Hit Points, roll 1d6 and subtract the result from the Hit Points regained."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (16+)",
+          "entries": [
+            "The target must succeed on a Constitution saving throw or have its Speed reduced by 20 feet until the end of its next turn. For the duration, each time the creature regains Hit Points, roll 2d6 and subtract the result from the Hit Points regained."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Myological Frenzy",
+      "source": "WHN",
+      "page": 7,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You finely tune the energy consumption in a willing creature's body, allowing it to move rapidly for a brief time.",
+        {
+          "type": "entries",
+          "name": "Abstract (8+)",
+          "entries": [
+            "Until the end of your next turn, the target's Speed is increased by 10 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (16+)",
+          "entries": [
+            "Until the end of your next turn, the target's Speed is increased by 10 feet and the attack rolls of Opportunity Attacks against it are made with Disadvantage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Necrotic Corrosion",
+      "source": "WHN",
+      "page": 7,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You imbue a willing creature's attacks with deathly energy.",
+        {
+          "type": "entries",
+          "name": "Abstract (8+)",
+          "entries": [
+            "The next time the target deals damage to a creature, it deals an extra 1d8 Necrotic damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (16+)",
+          "entries": [
+            "The next time the target deals damage to a creature, it deals an extra 2d8 Necrotic damage, which ignores Resistance and Immunity."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Affliction Transfusion",
+      "source": "WHN",
+      "page": 7,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You meddle with the natural defenses of a willing creature, ridding it of its afflictions and potentially spreading them to your enemies.",
+        {
+          "type": "entries",
+          "name": "Abstract (14+)",
+          "entries": [
+            "The target loses one of the following conditions: Blinded, Deafened, or Poisoned."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (28+)",
+          "entries": [
+            "The target loses one of the following conditions: Blinded, Deafened, or Poisoned. Choose another creature you can see within 30 feet of the target. That creature must succeed on a Constitution saving throw or gain the lost condition until the end of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soulweaver",
+      "source": "WHN",
+      "page": 7,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You use the life energy of others to temporarily amplify the spells cast by a willing creature.",
+        {
+          "type": "entries",
+          "name": "Abstract (14+)",
+          "entries": [
+            "The target's Spell Save DC and spell attack bonus increase by 1 until the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (28+)",
+          "entries": [
+            "The target's Spell Save DC and spell attack bonus increase by 2 until the end of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spirit Step",
+      "source": "WHN",
+      "page": 7,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** Your soul pulls the physical form to which it is tethered into the realm of the dead, the Ethereal Plane. While on this plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren't there can't perceive you or interact with you, unless they have the ability to do so.",
+        {
+          "type": "entries",
+          "name": "Abstract (14+)",
+          "entries": [
+            "You vanish from your current plane of existence and appear in the Ethereal Plane. At the end of the turn, you return to an unoccupied space of your choice that you can see within 10 feet of the space from which you vanished."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (28+)",
+          "entries": [
+            "You vanish from your current plane of existence and appear in the Ethereal Plane. At the start of your next turn, you return to an unoccupied space of your choice that you can see within 10 feet of the space from which you vanished."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Synaptic Overdrive",
+      "source": "WHN",
+      "page": 8,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You temporarily boost the neural connections in a willing creature's brain, allowing it to perform beyond its natural ability.",
+        {
+          "type": "entries",
+          "name": "Abstract (14+)",
+          "entries": [
+            "The target can take an additional Reaction until the end of your next turn. It can still only take one Reaction on each turn. If the target takes this extra Reaction, it doesn't regain its Reaction at the start of its next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (28+)",
+          "entries": [
+            "The target can take an additional action on its next turn. If the target takes this extra action, it can't take an action on its next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raise Undead",
+      "source": "WHN",
+      "page": 8,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You coalesce necromantic energy and give it a physical form, creating a new undead servant under your control.",
+        {
+          "type": "entries",
+          "name": "Abstract (14+)",
+          "entries": [
+            "A CR 1 or lower Undead of your choice appears in an unoccupied space of your choice you can see within 30 feet of you. It takes its turn immediately after you (and your thrall, if you have one) in the Initiative order and disappears at the start of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (28+)",
+          "entries": [
+            "A CR 3 or lower Undead of your choice appears in an unoccupied space of your choice that you can see within 30 feet of you. It takes its turn immediately after you (and your thrall, if you have one) in the Initiative order and disappears at the start of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vampiric Syphon",
+      "source": "WHN",
+      "page": 8,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You take away a creature's life energy and inject it into a willing creature, healing it in the process.",
+        {
+          "type": "entries",
+          "name": "Abstract (20+)",
+          "entries": [
+            "The target regains Hit Points equal to half the damage dealt by the spell, up to an amount equal to your Intelligence modifier."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (28+)",
+          "entries": [
+            "The target regains Hit Points equal to half the damage dealt by the spell, up to an amount equal to twice your Intelligence modifier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Withering Curse",
+      "source": "WHN",
+      "page": 8,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Hostile Formula.** You use necromancy to whittle away at a creature's vitality, hindering its capabilities.",
+        {
+          "type": "entries",
+          "name": "Abstract (20+)",
+          "entries": [
+            "The target must succeed on a Charisma saving throw or be cursed until the end of your next turn. For the duration, whenever the target makes an attack roll or a saving throw, it must subtract 1d4 from the attack or save."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (28+)",
+          "entries": [
+            "The target must succeed on a Charisma saving throw or be cursed until the end of your next turn. For the duration, whenever the target makes an attack roll or a saving throw, it must subtract 1d4 from the attack or save. Choose up to two creatures you can see within 15 feet of the target; each creature must succeed on a Charisma saving throw or also be subjected to this effect."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Boiling Bloodrage",
+      "source": "WHN",
+      "page": 8,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Hostile Formula.** The ire of dead spirits whispers its way into the mind of a creature.",
+        {
+          "type": "entries",
+          "name": "Abstract (25+)",
+          "entries": [
+            "Choose an enemy of the target that the target can see. The target makes a Wisdom saving throw. On a failure, it can't attack creatures other than the chosen enemy or target those creatures with spells or abilities until the end of its next turn. If the enemy is too far for the target to attack without moving, the target can act normally on the turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (50+)",
+          "entries": [
+            "Choose a creature that the target can see. The target makes a Wisdom saving throw. On a failure, it must use its action on its next turn to attack the chosen creature, using a weapon, Unarmed Strike, or cantrip. If the creature is an ally of the target, this effect ends immediately after the target makes one attack roll against the creature. If the creature is not an ally of the target, this effect ends after they use their action. If the enemy is too far for the target to attack without moving, the target can act normally on the turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grasp of the Grave",
+      "source": "WHN",
+      "page": 9,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Hostile Formula.** You give the souls of the afterlife visceral form for a moment, causing hands, tentacles, and other undeathly appendages to grasp at a creature.",
+        {
+          "type": "entries",
+          "name": "Abstract (25+)",
+          "entries": [
+            "The target must succeed on a Strength saving throw or have the Restrained condition until the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (50+)",
+          "entries": [
+            "The target must succeed on a Strength saving throw or be moved up to 30 feet in any direction and have the Restrained condition until the end of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\"Turn\" Undead",
+      "source": "WHN",
+      "page": 9,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Hostile Formula.** You override the nature of a creature, effectively turning it undead.",
+        {
+          "type": "entries",
+          "name": "Abstract (25+)",
+          "entries": [
+            "The target must succeed on a Charisma saving throw or have its creature type changed to Undead until the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (50+)",
+          "entries": [
+            "The target must succeed on a Charisma saving throw or have its creature type changed to Undead for 1 minute. For the duration, whenever the target takes Radiant damage, it takes an extra 1d8 Radiant damage. At the end of each of its turns after your next turn, the target can repeat the saving throw ending the effect on a success."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Undying Resilience",
+      "source": "WHN",
+      "page": 9,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You tether a willing creature's life essence to its body, preventing it from falling in combat.",
+        {
+          "type": "entries",
+          "name": "Abstract (25+)",
+          "entries": [
+            "The next time damage reduces the target to 0 Hit Points within 1 minute, it must make a Constitution saving throw with a DC of 5 plus the damage taken, unless the damage is Radiant or from a Critical Hit. On a success, the target drops to 1 Hit Point instead, then gains 1d8 Temporary Hit Points."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (50+)",
+          "entries": [
+            "The next time damage reduces the target to 0 Hit Points within 1 minute, it must make a Constitution saving throw with a DC of 5 plus the damage taken, unless the damage is Radiant or from a Critical Hit. On a success, the target drops to 1 Hit Point instead, then gains 3d8 Temporary Hit Points."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spirit Messenger",
+      "source": "WHN",
+      "page": 12,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Hostile Formula.** You forcefully possess a creature with a spirit and then immediately recall the spirit into your body, learning more about the creature in the process.",
+        {
+          "type": "entries",
+          "name": "Abstract (8+)",
+          "entries": [
+            "You learn the target's highest and lowest ability scores, its special senses, and if the target has the Magic Resistance trait and any uses of the Legendary Resistance trait."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (16+)",
+          "entries": [
+            "You learn the target's highest and lowest ability scores, its special senses, its AC, and all its Resistances, Immunities, and Vulnerabilities, as well as if the target has the Magic Resistance trait and any uses of the Legendary Resistance trait."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conscript Vitality",
+      "source": "WHN",
+      "page": 14,
+      "featureType": [
+        "Necromantic Formula"
+      ],
+      "entries": [
+        "**Bolstering Formula.** You take away a creature's life essence to infuse it into your thrall swarm, replenishing its numbers and destructive power. The only creature you can target with this formula is your Thrall Swarm.",
+        {
+          "type": "entries",
+          "name": "Abstract (12+)",
+          "entries": [
+            "The target regains Hit Points equal to half the damage dealt to one target of the spell, up to a number equal to your Necromancer level plus your Intelligence modifier."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Perfect (20+)",
+          "entries": [
+            "The target regains Hit Points equal to half the damage dealt to one target of the spell."
+          ]
+        }
+      ]
+    }
+  ]
+}

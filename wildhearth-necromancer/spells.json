@@ -1,0 +1,668 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "WildHearth Necromancer",
+        "abbreviation": "WHN",
+        "full": "Wild Hearth: Necromancer Playtest",
+        "authors": ["Pointy Hat", "Loot Tavern Publishing"],
+        "version": "1.01"
+      }
+    ],
+    "dateAdded": 2026,
+    "dateLastModified": 2026
+  },
+  "spell": [
+    {
+      "name": "Putrefy",
+      "source": "WHN",
+      "page": 15,
+      "level": 0,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You inject necromantic energy into the body of a creature you can see within range, accelerating the inexorable process of cellular death of its living tissue. The target must succeed on a Constitution saving throw or take 1d8 Necrotic damage. If the target has one of the following conditions, it takes an additional 1d4 Necrotic damage: Blinded, Deafened, Incapacitated, Paralyzed, Petrified, Poisoned, Stunned."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "The spell's damage increases by one die when you reach 5th level (2d8 and 2d4), 11th level (3d8 and 3d4), and 17th level (4d8 and 4d4)."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Revenge",
+      "source": "WHN",
+      "page": 16,
+      "level": 1,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction",
+          "condition": "which you take when a creature you can see deals damage to you"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You fire a bolt of vengeful necromantic energy at a creature you can see within range. The target must make a Constitution saving throw. On a failed save, it takes 2d8 Necrotic damage and has the Poisoned condition until the end of your next turn. On a successful save, it takes half as much damage only."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "The damage increases by 1d8 for each spell slot level above 1."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corpse Explosion",
+      "source": "WHN",
+      "page": 16,
+      "level": 2,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You cause a Small or larger corpse within range to violently explode. Each creature within 20 feet of the corpse must make a Dexterity saving throw, taking 4d6 Necrotic damage on a failed save or half as much damage on a successful one. A creature that fails the save is also Poisoned until the end of your next turn."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "The damage increases by 1d6 for each spell slot level above 2."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Necrotic Bolt",
+      "source": "WHN",
+      "page": 16,
+      "level": 3,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You harness the energy released at the moment of death and hurl it as a ray of necromantic power towards a creature within range. Make a ranged spell attack. On a hit, the target takes 5d8 Necrotic damage.",
+        "Additionally, after making the spell attack, you can choose to spend up to three of your Hit Point Dice, rolling them and adding the result to the spell's damage."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "The damage increases by 1d8 and the number of Hit Point Dice you can spend increases by 1 for each spell slot level above 3."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Plague",
+      "source": "WHN",
+      "page": 17,
+      "level": 4,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 0
+        },
+        "attackTouch": true
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a pomander that has lost its scent"
+      },
+      "duration": [
+        {
+          "type": "concentration",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You inject disease into a creature you touch. When you do, choose any number of creatures you can see to be immune to the effect of this spell for the duration. The target makes a Constitution saving throw. On a failed save, it takes 4d8 Necrotic damage and has the Poisoned condition for 1 minute. On a successful save, it takes half as much damage only.",
+        "A creature Poisoned by this spell is contagious. If a creature that isn't immune to this spell and isn't already Poisoned by it starts its turn within 5 feet of a contagious creature, it makes a Constitution saving throw. On a failed save, the creature takes 4d8 Necrotic damage, has the Poisoned condition for 1 minute, and becomes contagious. On a success, the creature is immune to this spell for the duration."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "If you cast this spell using a level 5 spell slot, you can maintain Concentration on it for up to 10 minutes. If you use a level 6+ spell slot, the spell does not require Concentration, and the duration becomes 1 hour (level 6), 8 hours (level 7), 24 hours (level 8), or 7 days (level 9)."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Commune with Dead",
+      "source": "WHN",
+      "page": 17,
+      "level": 5,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "ritual": true,
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a preserved tongue"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You commune with the spirits of the dead and gain their knowledge. Until you finish a Long Rest or cast this spell again, you gain one skill proficiency and one tool proficiency of your choice. Additionally, when you cast the spell, you gain knowledge of the area within 1 mile of you.",
+        "Choose three of the following facts; you learn those facts as they pertain to the spell's area:",
+        "{@b The presence and location of any Undead.}",
+        "{@b The location of any hallowed ground,} like spaces affected by the Hallow spell.",
+        "{@b The details pertaining to deaths that happened within the area in the 7 days.}",
+        "{@b The Necromancy spells that have been cast in the area within the last 30 days} and the true name, species, description, and caster level of who cast them.",
+        "{@b The details pertaining to historical events that have happened within the last 100 years.}",
+        "For example, you could determine the location of a Lich, the result of a battle between two armies, or the identity of the killer in a murder that took place in the location.",
+        "The spell doesn't function if cast on hallowed ground or in areas where no Humanoids have died in the last 100 years."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corrupt Life",
+      "source": "WHN",
+      "page": 18,
+      "level": 5,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You turn the life force of a creature you can see within range against itself. The target makes a Constitution saving throw. On a failed save, it takes an amount of Necrotic damage equal to 7 rolls of one of its Hit Point Dice and it cannot regain Hit Points until the end of its next turn."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "The number of rolls to determine the damage increases by 1 for every spell slot level above 5."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wall of Death",
+      "source": "WHN",
+      "page": 18,
+      "level": 6,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a censor"
+      },
+      "duration": [
+        {
+          "type": "concentration",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          }
+        }
+      ],
+      "entries": [
+        "You invite the spirits of the great beyond to flood into your plane, rising from the ground into a wall of wailing ghosts. You can make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a ringed wall up to 20 feet in diameter, 20 feet high, and 5 feet thick. The wall blocks line of sight and lasts for the duration.",
+        "When the wall appears, each creature that can see the wall must make a Wisdom saving throw. On a failure, a creature has the Frightened condition for the duration and, if the creature is in the wall's area, it takes 9d6 Psychic damage. On a success, a creature is not Frightened and, if it is in the wall's area, takes half as much damage.",
+        "The first time a creature enters the wall on a turn or ends its turn there, the creature must succeed on a Constitution saving throw or gain 1 Exhaustion level. A creature makes this save only once per turn."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Conjure Undead",
+      "source": "WHN",
+      "page": 18,
+      "level": 7,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a broken bell"
+      },
+      "duration": [
+        {
+          "type": "concentration",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          }
+        }
+      ],
+      "entries": [
+        "You conjure an undead phantasm, which manifests as swirling shadows in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range. The Cylinder is filled with magical Darkness. Darkvision can't see through it, and nonmagical light can't illuminate it. You can see through the magical Darkness generated by this spell for its duration. For each creature you can see in the Cylinder, choose how the phantasm affects it:",
+        "{@b Umbral Spirit.} The creature's vision isn't obscured by the magical Darkness.",
+        "{@b Rending Spirit.} The target makes a Dexterity saving throw, taking 6d12 Necrotic damage on a failed save or half as much damage on a successful one.",
+        "Until the spell ends, when you move on your turn, you can also move the Cylinder up to 30 feet.",
+        "Whenever the Cylinder moves into the space of a creature you can see and whenever a creature you can see enters the Cylinder or ends its turn there, you can choose a phantasm to affect it. A creature can be affected only once per turn."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "The damage increases by 1d12 for each spell slot level above 7."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Necropolis",
+      "source": "WHN",
+      "page": 18,
+      "level": 8,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 160
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "dirt from a desecrated cemetery"
+      },
+      "duration": [
+        {
+          "type": "concentration",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You invite the spirits of the dead to inhabit the ground you walk on in a 30-foot Emanation originating from you for the duration. They appear as glowing, spectral graves and mausoleums.",
+        "When you cast this spell, each creature of your choice within the Emanation makes a Dexterity saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. Additionally, one of the following options of your choice affects the creatures you chose while within the Emanation:",
+        "{@b The target cannot magically regain Hit Points.}",
+        "{@b The target has Resistance to Fire and Radiant damage.}",
+        "{@b The Emanation is Difficult Terrain for the target.}",
+        "{@b Whenever the target enters the Emanation or ends its turn there,} it makes a Dexterity saving throw, taking 4d8 Necrotic damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.",
+        "At the start of each of your turns, you choose which creatures are affected and the effect of the Emanation (no action required)."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Totentanz",
+      "source": "WHN",
+      "page": 19,
+      "level": 8,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a music box"
+      },
+      "duration": [
+        {
+          "type": "concentration",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You use an undead spirit to overwhelm a creature you can see within range, forcing it to engage in a deadly dance. The creature makes a Charisma saving throw.",
+        "On a successful save, the target uses all of its movement to dance in place until the end of its next turn and then gain 1 Exhaustion level.",
+        "On a failed save, the target has the Incapacitated condition for the duration. While Incapacitated, the target dances frenetically, must use all its movement to dance towards the closest creature it can see, and then gains 1 Exhaustion level. If the target cannot see any creatures, it dances in place. The target makes a Wisdom saving throw at the end of each of its turns.",
+        "If it successfully saves against this spell three times, the spell ends. The successes needn't be consecutive. Each time it fails the save, it gains another Exhaustion level.",
+        "A creature that is being compelled to dance by this spell is contagious. If a creature starts its turn within 5 feet of a dancing creature, it makes a Charisma saving throw. On a failed save, it gains the Incapacitated condition until the start of its next turn and must use all of its movement to dance towards the closest creature it can see that isn't dancing, gaining 1 Exhaustion level at the end of its turn."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mass Burial",
+      "source": "WHN",
+      "page": 19,
+      "level": 9,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a funeral shroud"
+      },
+      "duration": [
+        {
+          "type": "concentration",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You extinguish the spark of life inside your victims, bringing them back as products of necromancy. Each creature of your choice within a 30-foot-radius Sphere centered on a point within range has its creature type changed to Undead. Creatures turned Undead with this spell gain Resistance to Necrotic damage and Vulnerability to Radiant damage, and lose any Immunity to the Charmed condition.",
+        "For the duration, a creature that is turned into an Undead makes a Wisdom saving throw at the start of each of its turns. On a failure, the creature is Charmed by you until the start of its next turn. While Charmed in this way, the creature regards you as its trusted leader and views your enemies as its enemies and your allies as its allies. A creature that fails this saving throw three times is permanently Undead and Charmed by you, and keeps its Resistance to Necrotic damage and Vulnerability to Radiant damage. This permanent change can only be dispelled by a Wish spell or similar magic. This spell ends on a creature that succeeds on this saving throw three times. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Necromancer",
+            "source": "WHN"
+          }
+        ]
+      }
+    }
+  ]
+}
